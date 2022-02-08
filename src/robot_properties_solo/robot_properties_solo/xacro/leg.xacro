@@ -380,7 +380,8 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://robot_properties_solo/meshes/${mesh_ext}/with_foot/solo_foot.${mesh_ext}"/>
+          <sphere radius="0.02"/>
+          <!-- <mesh filename="package://robot_properties_solo/meshes/${mesh_ext}/with_foot/solo_foot.${mesh_ext}"/> -->
         </geometry>
         <material name="${color_name}">
             <color rgba="${color} ${opacity}"/>
@@ -390,7 +391,8 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-            <mesh filename="package://robot_properties_solo/meshes/${mesh_ext}/with_foot/solo_foot.${mesh_ext}"/>
+          <sphere radius="0.02"/>
+            <!-- <mesh filename="package://robot_properties_solo/meshes/${mesh_ext}/with_foot/solo_foot.${mesh_ext}"/> -->
         </geometry>
         <material name="${color_name}">
             <color rgba="${color} ${opacity}"/>
